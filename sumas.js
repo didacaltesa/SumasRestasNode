@@ -1,6 +1,11 @@
 var express = require("express"),
 app = express();
 
+app.get("/",function(req,res){
+  res.end("welcome to my app");
+
+});
+
 app.get("/suma",function(req,res){
   var num1 = req.query.num1;
   var num2 = req.query.num2;
@@ -16,4 +21,4 @@ app.get("/resta",function(req,res){
 
 });
 
-app.listen(8080);
+app.listen(3000);
