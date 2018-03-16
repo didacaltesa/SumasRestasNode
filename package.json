@@ -1,0 +1,15 @@
+{
+  "name": "practica2",
+  "version": "1.0.0",
+  "description": "practica 2 xarxes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Didac Altesa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2"
+  }
+}
